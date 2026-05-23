@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Neural Cyber Dashboard</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- BOOT SEQUENCE -->
+<div id="boot">
+  <div class="boot-text">WELCOME TO AI ERA</div>
+</div>
+
+<!-- OS WRAPPER -->
+<div id="os" class="hidden">
+
+  <div class="topbar">
+    <div>NEURAL-CYBER-OS</div>
+    <div id="clock"></div>
+  </div>
+
+  <div class="grid">
+
+    <!-- TERMINAL -->
+    <div class="panel">
+      <div class="title">TERMINAL</div>
+      <div id="terminal"></div>
+      <input id="cmd" placeholder="type command..." />
+    </div>
+
+    <!-- STATUS -->
+    <div class="panel">
+      <div class="title">SYSTEM STATUS</div>
+      <div>
+        CPU: STABLE<br/>
+        MEMORY: 64%<br/>
+        NEURAL LOAD: 42%<br/>
+        SECURITY: GREEN
+      </div>
+    </div>
+
+    <!-- AI CORE -->
+    <div class="panel">
+      <div class="title">AI CORE</div>
+      <div id="ai">Awaiting interaction...</div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+<script src="terminal.js"></script>
+<script src="ai-core.js"></script>
+<script src="glitch.js"></script>
+
+</body>
+</html>
